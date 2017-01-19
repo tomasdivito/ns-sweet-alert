@@ -16,4 +16,3 @@ var simpleAlert = function(args) {
 exports.simpleAlert = simpleAlerts
 
 module.exports = alert-sweet-ns;
-1159962025
