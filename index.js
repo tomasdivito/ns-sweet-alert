@@ -13,6 +13,6 @@ var simpleAlert = function(args) {
   var dialog = new SweetAlert.SweetAlertDialog(context).setTitle(args);
   dialog.show();
 }
-exports.simpleAlert = simpleAlerts
+exports.simpleAlert = simpleAlert;
 
 module.exports = alert-sweet-ns;
