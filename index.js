@@ -14,5 +14,3 @@ var simpleAlert = function(args) {
   dialog.show();
 }
 exports.simpleAlert = simpleAlert;
-
-module.exports = alert-sweet-ns;
