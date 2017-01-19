@@ -9,7 +9,7 @@ var context = app.android.context;
 
 const SweetAlert = cn.pedant.SweetAlert;
 
-var simpleAlert(args) {
+var simpleAlert = function(args) {
   var dialog = new SweetAlert.SweetAlertDialog(context).setTitle(args);
   dialog.show();
 }
