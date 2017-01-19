@@ -10,9 +10,10 @@ This plugin is licensed under the MITlicense by Tomas
 To install type
 
 ```
-tns plugin add nativescript-alert-sweet-ns
+tns plugin add https://github.com/tomasdivito/ns-sweet-alert.git
 ```
 
+It's currently on development so expect bugs, a lot of them, for now.
 ## Usages
 
 ## Example
