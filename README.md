@@ -13,7 +13,7 @@ To install type
 tns plugin add https://github.com/tomasdivito/ns-sweet-alert.git
 ```
 
-It's currently on development so expect bugs, a lot of them, for know.
+It's currently on development so expect bugs, a lot of them, for now.
 ## Usages
 
 ## Example
