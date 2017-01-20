@@ -1,45 +1,45 @@
 {
-    "name": "ns-sweet-alert",
-    "version": "1.0.0",
-    "description": "an implementation of sweet alert dialog for nativescript",
-    "main": "index.js",
-    "typings": "index.d.ts",
-    "nativescript": {
-        "platforms": {
-            "android": "2.0.0"
-        }
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns.git"
-    },
-    "keywords": [
-        "NativeScript",
-        "alert-sweet-ns",
-        "sweetalert",
-        "alert",
-        "sweet"
-    ],
-    "author": {
-        "name": "Tomas",
-        "email": "tomasdv2@gmail.com"
-    },
-    "license": {
-        "type": "MIT",
-        "url": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns/blob/master/LICENSE"
-    },
-    "bugs": {
-        "url": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns/issues"
-    },
-    "homepage": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns",
-    "readmeFilename": "README.md",
-    "scripts": {
-        "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
-        "demo.android": "npm run preparedemo && cd demo && tns run android",
-        "debug.ios": "npm run preparedemo && cd demo && tns debug ios --emulator",
-        "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
-        "preparedemo": "cd demo && tns plugin remove nativescript-alert-sweet-ns && tns plugin add .. && tns install",
-        "setup": "cd demo && npm install && tns plugin add .. && cd ..",
-        "start": "npm run demo.ios"
+  "name": "ns-sweet-alert",
+  "version": "1.0.1",
+  "description": "an implementation of sweet alert dialog for nativescript",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomasdivito/ns-sweet-alert.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "alert-sweet-ns",
+    "sweetalert",
+    "alert",
+    "sweet"
+  ],
+  "author": {
+    "name": "Tomas",
+    "email": "tomasdv2@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns/issues"
+  },
+  "homepage": "https://github.com/tomasdv2@gmail.com/nativescript-alert-sweet-ns",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "debug.ios": "npm run preparedemo && cd demo && tns debug ios --emulator",
+    "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
+    "preparedemo": "cd demo && tns plugin remove nativescript-alert-sweet-ns && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && tns plugin add .. && cd ..",
+    "start": "npm run demo.ios"
+  }
 }
