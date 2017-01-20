@@ -25,7 +25,7 @@ In your main-page.js like file do something like this
 
 ``` js
 var app = require('application');
-var SweetAlert = require('com.nativescript.alert-sweet-ns');
+var SweetAlert = require('ns-sweet-alert');
 
 var alertNice = function() {
   SweetAlert.simpleAlert("Hey this is a pretty alert for NS!", app.android.foregroundActivity);
