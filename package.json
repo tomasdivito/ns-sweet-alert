@@ -1,5 +1,5 @@
 {
-    "name": "com.nativescript.alert-sweet-ns",
+    "name": "ns-sweet-alert",
     "version": "1.0.0",
     "description": "an implementation of sweet alert dialog for nativescript",
     "main": "index.js",
