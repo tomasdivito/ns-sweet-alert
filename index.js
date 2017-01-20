@@ -10,6 +10,6 @@ const SweetAlert = cn.pedant.SweetAlert;
 
 //for context you can send app.android.context with the require('application')
 var simpleAlert = function(title, context) {
-  var dialog = new SweetAlert.SweetAlertDialog(context).setTitle(title).show();
+  var dialog = new SweetAlert.SweetAlertDialog(context).setTitleText(title).show();
 }
 exports.simpleAlert = simpleAlert;
