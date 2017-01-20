@@ -5,11 +5,11 @@
 * Version 1.0.0                                                  tomasdv2@gmail.com
 **********************************************************************************/
 var app = require('application');
-var context = app.android.context;
 
 const SweetAlert = cn.pedant.SweetAlert;
 
-var simpleAlert = function(args) {
+//for context you can send app.android.context with the require('application')
+var simpleAlert = function(title, context) {
   var dialog = new SweetAlert.SweetAlertDialog(context).setTitle(args);
   dialog.show();
 }
