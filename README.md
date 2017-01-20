@@ -15,7 +15,7 @@ Still not thinking into making this for iOS for now.
 To install type
 
 ```
-tns plugin add https://github.com/tomasdivito/ns-sweet-alert.git
+tns plugin add ns-sweet-alert
 ```
 
 ## Usages
