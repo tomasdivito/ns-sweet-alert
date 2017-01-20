@@ -20,9 +20,6 @@ tns plugin add https://github.com/tomasdivito/ns-sweet-alert.git
 
 ## Usages
 
-<<<<<<< HEAD
-## Example
-=======
 Once added into the project
 In your main-page.js like file do something like this
 
@@ -39,5 +36,3 @@ exports.push = push;
 And that's it!
 
 Enjoy it.
-
->>>>>>> 1e8587a25ab304c4bd126d8b67c91db4152bda52
