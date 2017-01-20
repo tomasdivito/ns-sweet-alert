@@ -1,4 +1,4 @@
-# NativeScript-Alert-sweet-ns
+# ns-sweet-alert
 an implementation of sweet alert dialog for nativescript
 
 Fill in a little about your plugin!
@@ -17,4 +17,3 @@ It's currently on development so expect bugs, a lot of them, for now.
 ## Usages
 
 ## Example
-
