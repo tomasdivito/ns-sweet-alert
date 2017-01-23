@@ -11,5 +11,5 @@ android {
 dependencies {
   compile 'com.pnikosis:materialish-progress:1.7'
   compile 'com.android.support:appcompat-v7:23.1.1'
-  compile "com.google.android.gms:play-services-wearable:+"
+  compile "com.google.android.gms:play-services-wearable:10.0.1"
 }
